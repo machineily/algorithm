@@ -1,6 +1,7 @@
 //union set
 class Djset{
 public:
+    int count;
     vector<int> parent;
     vector<int> rank;
     Djset(int n): count(n){
